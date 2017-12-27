@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.ig.instagrampolska1.WelcomeActivity" >
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:text="Witaj!"
+        android:textColor="@color/black"
+        android:textSize="55dp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:text="Nazwa użytkownika"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/profPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal" />
+
+    
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_gravity="center|center_horizontal"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:id="@+id/ivImage0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+    android:orientation="horizontal"
+        android:src="@drawable/abc_ab_share_pack_holo_dark" />
+
+    <ImageView
+        android:id="@+id/ivImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+    android:orientation="horizontal"
+        android:src="@drawable/abc_ab_share_pack_holo_dark" />
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+    android:orientation="horizontal"
+        android:src="@drawable/abc_ab_share_pack_holo_dark" />
+    </LinearLayout>
+
+</LinearLayout>
