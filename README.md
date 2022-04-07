@@ -1,2 +1,2 @@
 # instagrampolska
-Martwy projekt, który był zrobiony dla celów indywidualnych. Grupa pozwalała wyszukiwać ciekawe profile a także promować swój profil Instagram między członkami grupy facebookowej "Instagram Polska". 
+The project was to make a first version application similar to tinder but more over to share your boost your instagram account. People who gaves you right automatically followed you. 
